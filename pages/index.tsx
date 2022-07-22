@@ -41,8 +41,8 @@ export default function Home() {
                     animate="visible"
                     exit="exit"
                 >
-                    <h2>Welcome to Mo's Pizza</h2>
-                    <p>Let's see if you can guess my favorite pizza</p>
+                    <h2>{`Welcome to Mo's Pizza`}</h2>
+                    <p>{`Let's see if you can guess my favorite pizza`}</p>
                     <Link href="/base">
                         <motion.button
                             className="buttonBig"

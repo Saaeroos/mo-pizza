@@ -290,7 +290,7 @@ export default function Header() {
                 animate={{ y: -10 }}
                 transition={{ delay: 0.2, type: "spring", stiffness: 120 }}
             >
-                <h1>Mo's Pizza</h1>
+                <h1>{`Mo's Pizza`}</h1>
             </motion.div>
         </header>
     );
